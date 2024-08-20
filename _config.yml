@@ -17,12 +17,12 @@ featured_posts:
 
 collections:
   news:
-    title: News
-    default_open: false
+    title: Projects
+    default_open: true
     output: true
   posts:
     title: Essays
-    default_open: true
+    default_open: false
     output: true
 
 defaults:
@@ -34,8 +34,8 @@ defaults:
   - scope:
       type: news
     values:
-      title: News
-      permalink: /news/:title
+      title: Projects
+      permalink: /projects/:title
 
 plugins:
   - jekyll-sitemap
